@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bag from "../../Assets/Projects/bag.png";
 import movie from "../../Assets/Projects/movie.png";
+import bookstore from "../../Assets/Projects/bookstore.png";
 
 function Projects() {
   return (
@@ -38,7 +39,16 @@ function Projects() {
               
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bookstore}
+              isBlog={false}
+              title="Bookstore"
+              description="This web application allows customers to explore a variety of books, create accounts, make purchases, and view their purchase history. Sellers have the ability to manage the book inventory and access pickup details for completed orders. The system provides a seamless way for customers to discover and acquire their favorite books, while empowering sellers with the tools to efficiently manage their book offerings."
+              ghLink="https://github.com/zazarip/Bookstore"
+              
+            />
+          </Col>
 
 
 
